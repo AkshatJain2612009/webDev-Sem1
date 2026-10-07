@@ -21,3 +21,10 @@ p {
   font-style: italic;
   color: rgb(0, 0, 0);
 }
+.box, p {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  vertical-align: top; 
+  box-sizing: border-box;
+}
