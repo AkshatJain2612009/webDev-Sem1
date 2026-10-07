@@ -11,4 +11,13 @@ h1 {
 p {
   font-size: 14px;
   line-height: 1.5;
+  color: #df8b8b;
+}
+#intro {
+  font-style: italic;
+  color: #b08383;
+}
+.note {
+  font-style: italic;
+  color: rgb(0, 0, 0);
 }
