@@ -21,10 +21,19 @@ p {
   font-style: italic;
   color: rgb(0, 0, 0);
 }
-.box, p {
+/* .box, p {
   display: inline-block;
   width: 200px;
   height: 100px;
   vertical-align: top; 
   box-sizing: border-box;
+} */
+div>p {
+  color: #7bbcfd;
+  font-size: 16px;
 }
+html     { font-size: 16px; }   /* root */
+.parent  { font-size: 20px; }
+
+.em-text  { font-size: 2em; }   /* 2 × 20px (parent) = 40px */
+.rem-text { font-size: 2rem; }  /* 2 × 16px (root)   = 32px */
